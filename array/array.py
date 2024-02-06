@@ -1,1 +1,2 @@
 print("array")
+print("hi")
