@@ -10,3 +10,9 @@ def binary_search(arr, target):
         else:
             right = mid - 1
     return -1
+
+def main():
+    arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    target = 5
+    result = binary_search(arr, target)
+    print(f"Target found at index: {result}")
