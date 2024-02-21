@@ -73,6 +73,5 @@ def evaluate_expression(expression):
 
 
 # Test cases
-print(evaluate_expression("123+4-5*6/7"))
 print(evaluate_expression("1+2*3/4-5"))   # Output: 0
 print(evaluate_expression("1+2*3/4-5*6")) # Output: -17s
