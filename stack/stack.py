@@ -72,6 +72,5 @@ def evaluate_expression(expression):
     return stack.pop()
 
 
-# Test cases
-print(evaluate_expression("1+2*3/4-5"))   # Output: 0
+# Test casess
 print(evaluate_expression("1+2*3/4-5*6")) # Output: -17s
