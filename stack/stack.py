@@ -75,3 +75,5 @@ def evaluate_expression(expression):
 # Test casess
 print(evaluate_expression("1+2*3/4-5*6")) # Output: -17s
 print(evaluate_expression("2+3*4/5-6*7")) # Output: -5
+print(evaluate_expression("2+3*4/5-6*7")) # Output: -5
+print(Stack().is_empty())                   # True
